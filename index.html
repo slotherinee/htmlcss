@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <title>Home | Vendista LLC</title>
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <header class="bg-white px-4 py-4">
+    <div class="max-w-screen-xl mx-auto flex items-center justify-between">
+      <div class="flex items-center justify-between">
+        <a class='hidden md:block' href="/">
+          <img src="/assets/vendista.png" width="100" height="100" alt="Logo" class="rounded-full"
+            style="aspect-ratio: auto; object-fit: cover" />
+        </a>
+        <button class="sm:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="h-6 w-6">
+            <line x1="4" x2="20" y1="12" y2="12"></line>
+            <line x1="4" x2="20" y1="6" y2="6"></line>
+            <line x1="4" x2="20" y1="18" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+      <nav class="hidden sm:flex sm:gap-4"><a
+          class="px-3 py-2 rounded-md text-sm font-medium text-white bg-emerald-600 hover:bg-emerald-700" href="/">
+          Главная
+        </a><a class="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-100" href="/about.html">
+          О нас
+        </a><a class="px-3 py-2 rounded-md text-sm font-medium hover:bg-gray-100" href="/contact-us.html">
+          Контакты
+        </a>
+        <div class="relative group"><button
+            class="px-3 py-2 rounded-md text-sm font-medium flex items-center hover:bg-gray-100">
+            <a href='/industries.html'>Производство</a>
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="ml-1 h-4 w-4">
+              <path d="m6 9 6 6 6-6"></path>
+            </svg></button>
+          <div
+            class="absolute z-10 hidden group-hover:grid bg-white shadow-lg w-[450px] py-4 px-8 rounded-md grid grid-cols-3 gap-4 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3">
+            <a class="text-sm font-medium hover:text-emerald-700" href="/single-page.html">
+              Автомобильное
+            </a><a class="text-sm font-medium hover:text-emerald-700" href="/single-page.html">
+              Интернет вещей
+            </a><a class="text-sm font-medium hover:text-emerald-700" href="/single-page.html">
+              Облачное
+            </a><a class="text-sm font-medium hover:text-emerald-700" href="/single-page.html">
+              Бытовая электроника
+            </a><a class="text-sm font-medium hover:text-emerald-700" href="/single-page.html">
+              Автоматизация
+            </a><a class="text-sm font-medium hover:text-emerald-700" href="/single-page.html">
+              Образовательное
+            </a><a class="text-sm font-medium hover:text-emerald-700" href="/single-page.html">
+              Мобильное
+            </a><a class="text-sm font-medium hover:text-emerald-700" href="/single-page.html">
+              Нефть и газ
+            </a><a class="text-sm font-medium hover:text-emerald-700" href="/single-page.html">
+              Интернет-торговля
+            </a><a class="text-sm font-medium hover:text-emerald-700" href="/single-page.html">
+              Вычислительное
+            </a><a class="text-sm font-medium hover:text-emerald-700" href="/single-page.html">
+              Медицинское
+            </a>
+            <a class="text-sm font-medium hover:text-emerald-700" href="/single-page.html">
+              Игровое</a>
+          </div>
+        </div>
+      </nav>
+      <div class="flex">
+        <button
+          class="items-center justify-center whitespace-nowrap rounded-md text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 hover:bg-emerald-700 h-10 px-4 py-2 hidden sm:block bg-emerald-600 text-white">
+          Войти
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <section class="w-full py-12 mx-auto animate__animated animate__slow">
+    <div class="max-w-screen-xl mx-auto">
+      <div class="container grid items-center gap-4 mx-auto md:gap-8">
+        <div class="space-y-4 md:space-y-6">
+          <div class="relative text-center">
+            <img alt="Electronic Components" class="aspect-[3/1] rounded-lg overflow-hidden" src="/assets/hero.jpg"
+              width="full" />
+            <div class="absolute inset-0 bg-black opacity-70"></div>
+            <div class="absolute inset-0 flex items-center justify-center">
+              <div class="text-white flex flex-col justify-center items-center gap-4">
+                <h1 class="text-3xl md:text-4xl lg:text-5xl font-bold tracking-tighter mb-2 text-center ">
+                  Электронные компоненты высокого качества
+                </h1>
+                <p class="max-w-[600px] text-gray-300 md:text-xl lg:text-2xl text-center">
+                  Откройте для себя мир инноваций с нашими высококачественными
+                  электронными компонентами.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--
+Coo. Brands
+-->
+  <section class="py-10 animate__animated animate__slow ">
+    <div class="max-w-screen-xl mx-auto">
+      <h2 class="text-center text-2xl font-bold mb-8">Наши партнеры</h2>
+      <div
+        class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-8 justify-center justify-items-center items-center">
+        <img src="/assets/pngs/24-min.png" alt="Brand 1" class="h-10" width="120" height="40"
+          style="aspect-ratio: 120 / 40; object-fit: cover" loading="lazy" /><img src="/assets/pngs/23-min.png"
+          alt="Brand 2" class="h-10" width="120" height="40" style="aspect-ratio: 120 / 40; object-fit: cover"
+          loading="lazy" /><img src="/assets/pngs/22-min.png" alt="Brand 3" class="h-10" width="120" height="40"
+          style="aspect-ratio: 120 / 40; object-fit: cover" loading="lazy" /><img src="/assets/pngs/21-min.png"
+          alt="Brand 4" class="h-10" width="120" height="40" style="aspect-ratio: 120 / 40; object-fit: cover"
+          loading="lazy" /><img src="/assets/pngs/20-min.png" alt="Brand 5" class="h-10" width="120" height="40"
+          style="aspect-ratio: 120 / 40; object-fit: cover" loading="lazy" /><img src="/assets/pngs/19-min.png"
+          alt="Brand 6" class="h-10" width="120" height="40" style="aspect-ratio: 120 / 40; object-fit: cover"
+          loading="lazy" /><img src="/assets/pngs/18-min.png" alt="Brand 7" class="h-10" width="120" height="40"
+          style="aspect-ratio: 120 / 40; object-fit: cover" loading="lazy" /><img src="/assets/pngs/17-min.png"
+          alt="Brand 8" class="h-10" width="120" height="40" style="aspect-ratio: 120 / 40; object-fit: cover"
+          loading="lazy" /><img src="/assets/pngs/16-min.png" alt="Brand 9" class="h-10" width="120" height="40"
+          style="aspect-ratio: 120 / 40; object-fit: cover" loading="lazy" /><img src="/assets/pngs/15-min.png"
+          alt="Brand 10" class="h-10" width="120" height="40" style="aspect-ratio: 120 / 40; object-fit: cover"
+          loading="lazy" /><img src="/assets/pngs/14-min.png" alt="Brand 11" class="h-10" width="120" height="40"
+          style="aspect-ratio: 120 / 40; object-fit: cover" loading="lazy" /><img src="/assets/pngs/13-min.png"
+          alt="Brand 12" class="h-10" width="120" height="40" style="aspect-ratio: 120 / 40; object-fit: cover"
+          loading="lazy" /><img src="/assets/pngs/12-min.png" alt="Brand 13" class="h-10" width="120" height="40"
+          style="aspect-ratio: 120 / 40; object-fit: cover" loading="lazy" /><img src="/assets/pngs/11-min.png"
+          alt="Brand 14" class="h-10" width="120" height="40" style="aspect-ratio: 120 / 40; object-fit: cover"
+          loading="lazy" /><img src="/assets/pngs/10-min.png" alt="Brand 15" class="h-10" width="120" height="40"
+          style="aspect-ratio: 120 / 40; object-fit: cover" loading="lazy" /><img src="/assets/pngs/9-min.png"
+          alt="Brand 16" class="h-10" width="120" height="40" style="aspect-ratio: 120 / 40; object-fit: cover"
+          loading="lazy" /><img src="/assets/pngs/8-min.png" alt="Brand 17" class="h-10" width="120" height="40"
+          style="aspect-ratio: 120 / 40; object-fit: cover" loading="lazy" /><img src="/assets/pngs/7-min.png"
+          alt="Brand 18" class="h-10" width="120" height="40" style="aspect-ratio: 120 / 40; object-fit: cover"
+          loading="lazy" /><img src="/assets/pngs/4-min.png" alt="Brand 19" class="h-10" width="120" height="40"
+          style="aspect-ratio: 120 / 40; object-fit: cover" loading="lazy" />
+        <img src="/assets/pngs/5-min.png" alt="Brand 19" class="h-10" width="120" height="40"
+          style="aspect-ratio: 120 / 40; object-fit: cover" loading="lazy" />
+        <img src="/assets/pngs/6-min.png" alt="Brand 19" class="h-10" width="120" height="40"
+          style="aspect-ratio: 120 / 40; object-fit: cover" loading="lazy" />
+        <img src="/assets/pngs/3-min.png" alt="Brand 19" class="h-10" width="120" height="40"
+          style="aspect-ratio: 120 / 40; object-fit: cover" loading="lazy" />
+        <img src="/assets/pngs/2-min.png" alt="Brand 19" class="h-10" width="120" height="40"
+          style="aspect-ratio: 120 / 40; object-fit: cover" loading="lazy" />
+        <img src="/assets/pngs/1-min.png" alt="Brand 19" class="h-10" width="120" height="40"
+          style="aspect-ratio: 120 / 40; object-fit: cover" loading="lazy" />
+      </div>
+    </div>
+  </section>
+  <!--
+Feature Section
+-->
+  <section class="bg-gray-100 py-12 px-4 sm:px-6 lg:px-8 gap-8 animate__animated animate__slow >
+    <div class=" max-w-screen-xl mx-auto">
+    <div class="text-center mb-10">
+      <h2 class="text-2xl leading-9 font-semibold text-gray-900 sm:text-4xl sm:leading-10 mb-2">
+        Качественные электронные компоненты для любой отрасли
+      </h2>
+      <p class="mt-4 mb-20 text-lg leading-relaxed tracking-wide text-gray-600  text-base">
+        Мы предлагаем широкий ассортимент электронных компонентов, которые надежны,
+        долговечны и соответствуют самым высоким отраслевым стандартам. Работаете ли вы
+        в автомобилестроении, аэрокосмической отрасли или телекоммуникациях, у нас есть подходящие
+        компоненты для ваших нужд.
+      </p>
+    </div>
+    <div class="grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div class="text-center">
+        <div class="mb-4">
+          <img loading="lazy" src="/assets//home/feature-delivery.jpg" alt="Delivery icon"
+            class="mx-auto rounded h-40 w-80 object-cover" width="400" height="200" style="aspect-ratio: 200 / 200;" />
+        </div>
+        <h3 class="text-xl leading-6 font-semibold text-gray-900">
+          Быстрая и надежная доставка
+        </h3>
+        <p class="mt-3 text-base leading-relaxed tracking-wide text-gray-800 antialiased">
+          Мы понимаем важность своевременной доставки. Благодаря нашей
+          эффективной логистической сети мы гарантируем, что ваши компоненты будут
+          доставлены вам вовремя, каждый раз.
+        </p>
+      </div>
+      <div class=" text-center">
+        <div class="mb-4">
+          <img loading="lazy" src="/assets/home/feature-prices.jpg" alt="Pricing icon"
+            class="mx-auto rounded h-40 w-80 object-cover" width="200" height="200" style="aspect-ratio: 200 / 200;" />
+        </div>
+        <h3 class="text-xl leading-6 font-semibold text-gray-900">
+          Качество по доступным ценам
+        </h3>
+        <p class="mt-3 text-base leading-relaxed tracking-wide text-gray-800 antialiased">
+          Мы закупаем материалы у проверенных поставщиков с строгим контролем качества, чтобы обеспечить безопасность
+          и надежность. Наше обязательство заключается в том, что все товары поступают от официальных поставщиков, и
+          мы предлагаем 365-дневную гарантию качества.
+        </p>
+      </div>
+      <div class="text-center">
+        <div class="mb-4">
+          <img loading="lazy" src="/assets/home/feature-service.jpg" alt="Support icon"
+            class="mx-auto rounded h-40 w-80 object-cover" width="200" height="200" />
+        </div>
+        <h3 class="text-xl leading-6 font-semibold text-gray-900">
+          Исключительная поддержка клиентов
+        </h3>
+        <p class="mt-3 text-base leading-relaxed tracking-wide text-gray-800 antialiased">
+          Наша специальная команда поддержки клиентов всегда готова прийти на помощь
+          ты. Мы предоставляем оперативную и надежную поддержку для обеспечения вашего
+          удовлетворение.
+        </p>
+      </div>
+    </div>
+
+    </div>
+  </section>
+  <!--
+ABOUT US
+-->
+  <section
+    class="container mx-auto px-4 py-16 md:flex md:items-center md:justify-between md:space-x-8 animate__animated animate__slow">
+    <div class="md:w-1/2">
+      <img loading="lazy" src="/assets/home/contact-us-home.jpg" alt="Electronic Components"
+        class="w-full h-auto rounded-lg" width="600" height="400" style="aspect-ratio: 600 / 400; object-fit: cover" />
+    </div>
+    <div class="mt-8 md:mt-0 md:w-1/2">
+      <h4 class="text-sm font-semibold uppercase tracking-wide text-gray-500 mb-2">
+        Ведущая
+      </h4>
+      <h2 class="text-4xl font-bold text-gray-800 mb-4">
+        Поставка качественных электронных компонентов по всей России
+      </h2>
+      <p class="text-base text-gray-600 mb-6">
+        В нашей компании, мы стремимся предоставить первоклассные электронные
+        компоненты для поддержки
+      </p>
+      <div class="flex items-center  sm:flex-row sm:space-y-0 sm:space-x-4">
+        <div class="space-x-2"><button
+            class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 bg-emerald-600 text-white px-6 py-2 rounded hover:bg-emerald-700">
+            Подробнее
+          </button><button
+            class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 border-2 border-emerald-600 text-emerald-600 bg-white px-6 py-2 rounded hover:text-white hover:bg-emerald-600">
+            Свяжитесь с нами
+          </button></div>
+      </div>
+    </div>
+  </section>
+  <!-- Contact us
+-->
+  <section class="bg-gray-100 py-12 px-4 sm:px-6 lg:px-8 animate__animated animate__slow">
+    <div class="max-w-6xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-8 items-start">
+      <div class="lg:col-span-2">
+        <h2 class="text-3xl font-extrabold tracking-tight text-gray-900">
+          Контактная информация
+        </h2>
+        <p class="mt-4 text-lg leading-6 text-gray-500">
+          Мы здесь, чтобы помочь. Обращайтесь к нам по любым вопросам.
+        </p>
+        <div class="mt-8 space-y-6">
+          <div class="flex items-start space-x-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="h-6 w-6 text-gray-400">
+              <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+              <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+            </svg>
+            <div>
+              <h3 class="text-lg font-medium text-gray-900">Email</h3>
+              <p class="text-gray-500">Отправьте нам электронное письмо</p>
+              <a href="mailto:partners@vendista.ru" class="text-emerald-600 hover:underline">
+                partners@vendista.ru
+              </a>
+            </div>
+          </div>
+          <div class="flex items-start space-x-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="h-6 w-6 text-gray-400">
+              <path
+                d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+              </path>
+            </svg>
+            <div>
+              <h3 class="text-lg font-medium text-gray-900">Телефон</h3>
+              <p class="text-gray-500">Позвоните нам</p>
+              <a href="tel:+78006002632" class="text-emerald-600 hover:underline">
+                8 (800) 600-26-32
+              </a>
+            </div>
+          </div>
+          <div class="flex items-start space-x-4">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+              class="h-6 w-6 text-gray-400">
+              <line x1="2" x2="5" y1="12" y2="12"></line>
+              <line x1="19" x2="22" y1="12" y2="12"></line>
+              <line x1="12" x2="12" y1="2" y2="5"></line>
+              <line x1="12" x2="12" y1="19" y2="22"></line>
+              <circle cx="12" cy="12" r="7"></circle>
+            </svg>
+            <div>
+              <h3 class="text-lg font-medium text-gray-900">Офис</h3>
+              <p class="text-gray-500">Республика Татарстан,
+                район Верхнеуслонский,<br /> город Иннополис, квартал Энергоцентр, д. 1А, офис 210</p>
+              <a href="#" target="_blank" rel="noopener noreferrer" class="text-emerald-600 hover:underline">
+                Узнайте как добраться
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex justify-center lg:justify-end">
+        <img loading="lazy" src="/assets/home/call-us.jpg" alt="Map placeholder"
+          class="h-[300px] w-full max-w-md object-cover lg:w-96" width="400" height="300" style="
+                aspect-ratio: 400 / 300;
+                object-fit: cover;
+                object-position: center bottom;
+              " />
+      </div>
+    </div>
+  </section>
+  <!-- BLOG -->
+
+  <div class="bg-white py-12 animate__animated animate__slow">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center mb-12">
+        <h2 class="text-base text-emerald-600 font-semibold tracking-wide uppercase">
+          Свежие публикации
+        </h2>
+        <p class="mt-2 text-3xl leading-8 font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+          Ознакомтесь с нашими последними публикациями
+        </p>
+        <p class="mt-4 max-w-2xl text-xl text-gray-500 lg:mx-auto">
+          Будьте в курсе последних новостей и тенденций в электронной промышленности.
+        </p>
+      </div>
+      <div class="flex flex-wrap -m-4">
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img loading="lazy" class="lg:h-48 md:h-36 w-full object-cover object-center"
+              src="/assets/home/home-electronic-blog.jpg" alt="blog cover" width="290" height="194"
+              style="aspect-ratio: 290 / 194; object-fit: cover" />
+            <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                Электроника
+              </h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                Будущее производства электроники
+              </h1>
+              <p class="leading-relaxed mb-3">
+                Узнайте о последних тенденциях и технологиях, формирующих
+                отрасль.
+              </p>
+              <div class="flex items-center flex-wrap">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="text-gray-400 w-4 h-4">
+                  <circle cx="12" cy="5" r="1"></circle>
+                  <path d="m9 20 3-6 3 6"></path>
+                  <path d="m6 8 6 2 6-2"></path>
+                  <path d="M12 10v4"></path>
+                </svg><span class="text-gray-500 text-sm ml-1"> Иванов Иван </span><span class="text-gray-500 mx-2"> •
+                </span><span class="text-gray-500 text-sm"> 11 января 2022 </span><span class="text-gray-500 mx-2"> •
+                </span><span class="text-gray-500 text-sm"> 5 мин. </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img loading="lazy" class="lg:h-48 md:h-36 w-full object-cover object-center"
+              src="/assets/home/home-ai-blog.jpg" alt="blog cover" width="290" height="194"
+              style="aspect-ratio: 290 / 194; object-fit: cover" />
+            <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                Технологии
+              </h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                Влияние искусственного интеллекта на производство электроники
+              </h1>
+              <p class="leading-relaxed mb-3">
+                Узнайте, как искусственный интеллект революционизирует
+                отрасль.
+              </p>
+              <div class="flex items-center flex-wrap">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="text-gray-400 w-4 h-4">
+                  <circle cx="12" cy="5" r="1"></circle>
+                  <path d="m9 20 3-6 3 6"></path>
+                  <path d="m6 8 6 2 6-2"></path>
+                  <path d="M12 10v4"></path>
+                </svg><span class="text-gray-500 text-sm ml-1"> Смелова Екатерина </span><span
+                  class="text-gray-500 mx-2"> •
+                </span><span class="text-gray-500 text-sm"> 11 января 2022 </span><span class="text-gray-500 mx-2"> •
+                </span><span class="text-gray-500 text-sm"> 7 мин. </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="p-4 md:w-1/3">
+          <div class="h-full border-2 border-gray-200 border-opacity-60 rounded-lg overflow-hidden">
+            <img loading="lazy" class="lg:h-48 md:h-36 w-full object-cover object-center"
+              src="/assets/home/home-delivery-blog.jpg" alt="blog cover" width="290" height="194"
+              style="aspect-ratio: 290 / 194; object-fit: cover" />
+            <div class="p-6">
+              <h2 class="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">
+                Промышленность
+              </h2>
+              <h1 class="title-font text-lg font-medium text-gray-900 mb-3">
+                Важность управления цепочкой поставок
+              </h1>
+              <p class="leading-relaxed mb-3">
+                Узнайте, как эффективное управление цепочкой поставок способствует
+                успеху.
+              </p>
+              <div class="flex items-center flex-wrap">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+                  stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                  class="text-gray-400 w-4 h-4">
+                  <circle cx="12" cy="5" r="1"></circle>
+                  <path d="m9 20 3-6 3 6"></path>
+                  <path d="m6 8 6 2 6-2"></path>
+                  <path d="M12 10v4"></path>
+                </svg><span class="text-gray-500 text-sm ml-1">
+                  Марк Марков </span><span class="text-gray-500 mx-2"> • </span><span class="text-gray-500 text-sm">
+                  11 января 2022 </span><span class="text-gray-500 mx-2"> • </span><span class="text-gray-500 text-sm">
+                  6
+                  мин. </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-12">
+        <button
+          class="inline-flex items-center justify-center whitespace-nowrap text-sm font-medium ring-offset-background transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50 h-10 border-2 border-emerald-600 text-emerald-600 bg-white px-6 py-2 rounded hover:text-white hover:bg-emerald-600">
+          Посмотреть все
+        </button>
+      </div>
+    </div>
+  </div>
+  </section>
+  <!--
+// footer
+-->
+  <footer class="bg-gray-100">
+    <div class="container mx-auto justify-center items-center px-4 py-8 md:flex md:justify-between md:items-start">
+      <div class="mb-6 md:mb-0">
+        <div class='mb-4'><a href='/'><img loading="lazy" src="/assets/vendista.png" width="100" height="100" alt="Logo"
+              class="rounded-full" style="aspect-ratio: auto; object-fit: cover" /></a></div>
+        <div class="mb-4">
+          <h3 class="font-semibold">Адрес:</h3>
+          <p>Иннополис, квартал Энергоцентр, д. 1А, офис 210</p>
+        </div>
+        <div>
+          <h3 class="font-semibold">Контакты:</h3>
+          <p><a class='underline hover:no-underline' href="tel:+78006002632">+7 (800) 600-26-32</a></p>
+          <p><a class='underline hover:no-underline' href="mailto:partners@vendista.ru">partners@vendista.ru</a></p>
+        </div>
+        <div class="flex mt-4 space-x-2">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="h-6 w-6 cursor-pointer">
+            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="h-6 w-6 cursor-pointer">
+            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="h-6 w-6 cursor-pointer">
+            <path d="M18 6 6 18"></path>
+            <path d="m6 6 12 12"></path>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="h-6 w-6 cursor-pointer">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect width="4" height="12" x="2" y="9"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+            class="h-6 w-6 cursor-pointer">
+            <path
+              d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17">
+            </path>
+            <path d="m10 15 5-3-5-3z"></path>
+          </svg>
+        </div>
+      </div>
+      <div class="grid grid-cols-2 gap-4 text-sm md:text-base">
+        <div>
+          <a class="block mb-2 hover:underline" href="/single-page.html">Автомобильное</a>
+          <a class="block mb-2 hover:underline" href="/single-page.html">Интернет вещей</a>
+          <a class="block mb-2 hover:underline" href="/single-page.html">Облачное</a>
+          <a class="block mb-2 hover:underline" href="/single-page.html">Бытовая электроника</a>
+          <a class="block mb-2 hover:underline" href="/single-page.html">Автоматизация</a>
+          <a class="block mb-2 hover:underline" href="/single-page.html">Образовательное</a>
+        </div>
+        <div>
+          <a class="block mb-2 hover:underline" href="/single-page.html">Мобильное</a>
+          <a class="block mb-2 hover:underline" href="/single-page.html">Нефть и газ</a>
+          <a class="block mb-2 hover:underline" href="/single-page.html">Интернет торговля</a>
+          <a class="block mb-2 hover:underline" href="/single-page.html">Вычислительное</a>
+          <a class="block mb-2 hover:underline" href="/single-page.html">Медицинское</a>
+          <a class="block mb-2 hover:underline" href="/single-page.html">Игровое</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  </main>
+  <script src='script.js'></script>
+</body>
+
+</html>
